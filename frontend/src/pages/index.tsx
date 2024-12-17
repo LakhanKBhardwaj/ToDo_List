@@ -1,5 +1,6 @@
 import Head from "next/head";
 import localFont from "next/font/local";
+import { TodoList } from "@/components/TodoList";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
+        <TodoList />
       </main>
     </>
   );
